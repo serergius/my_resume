@@ -6,22 +6,39 @@
     <title>SSS</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6d6952c5be.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="menu">
           <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portifólio</a></li>
-            <li><a href="#">Contato</a></li>
+	    <li><a href="#">
+			  Home
+			</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#portfolio">Portifólio</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
-	<div>
+	<div class="titulo" id="home">
           <h1 class="site-title">Sergio Santana</h1>
           <h2 class="site-subtitle">C# web developer</h2>
  	</div>     
       </header>
-<section class="portfolio">
+<section class="sobre" id="sobre">
+<h2>Sobre</h2>
+		<div class="grid">
+		  <figure class="avatar">
+			<img src="https://pbs.twimg.com/profile_images/1120428611130011648/lLjQ4NZG_400x400.png" alt="Serergius" />
+		</figure>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Este site foi construído durante a <a href="www.alura.com/imersao-css">Imersão css da alura</a>.</p>
+		 </div>
+</section>
+<section class="portfolio" id="portfolio">
 		<h2>Portfólio</h2>
 		<div class="grid">
 		<figure>
@@ -32,15 +49,37 @@
 			<img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
 			<figcaption>Mobile</figcaption>
 		</figure>
-		<figure>
-			<img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
+		<div class="flip-card">
+		<div class="card">
+		<figure class="card-front">
+			<img class="img-goku" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design" />
 			<figcaption>Web design</figcaption>
 		</figure>
+		<div class="card-back">Oi! eu sou o goku, atras do web design</div>
+		</div>
+		</div>
 		<figure>
 			<img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
 			<figcaption>Projetos pessoais</figcaption>
 		</figure>
 		</div>
+	</section>
+<section class="contato" id="contato">
+		<h2>Contato</h2>
+		<div class="grid icons">
+			<a target="_blank" href="https://github.com/serergius">
+			  <i class="fab fa-github"></i>
+			</a>
+			<a target="_blank" href="https://twitter.com/serergius">					  <i class="fab fa-twitter"></i>
+			</a>
+			<a target="_blank" href="https://linkedin.com/in/sssergio">					  <i class="fab fa-linkedin"></i>
+			</a>
+			<a target="_blank" href="https://instagram.com/serergius">
+			  <i class="fab fa-instagram"></i>
+			</a>
+			<a target="_blank" href="https://youtube.com/serergius">
+			  <i class="fab fa-youtube"></i>
+			</a>
 	</section>
 </body>
 </html>
